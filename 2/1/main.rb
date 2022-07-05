@@ -17,8 +17,6 @@ File.readlines(FILE_PATH).each do |full_command|
   end
 end
 
-puts x
-puts y
 product = x * y
 
 puts "the product is: #{product}"
